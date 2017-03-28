@@ -23,8 +23,9 @@ npm start
 * Express
 * Vue 2.0
 * Webpack
-* HTML5 History API
 * Nodemon
+* Page.js
+* jQuery
 ```
 
 For a detailed explanation of the build process, read the [docs for vue-loader](http://vuejs.github.io/vue-loader).
