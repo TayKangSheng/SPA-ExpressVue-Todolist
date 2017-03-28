@@ -2,7 +2,9 @@
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
-        <v-link class="navbar-brand" href="/"> Home </v-link>
+        <a href="/">
+          <img src="/assets/logo.png" class="img-responsive" style="height:50px; padding: 10px;">
+        </a>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-left">
