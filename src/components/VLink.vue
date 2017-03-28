@@ -1,7 +1,6 @@
 <template lang="html">
   <a v-bind:href="href"
-    v-bind:class="{ active: isActive }"
-    v-on:click="go">
+    v-bind:class="{ active: isActive }">
     <slot></slot>
   </a>
 </template>
@@ -16,18 +15,7 @@
     },
     computed: {
       isActive(){
-        return this.href === this.$root.currentRoute
-      }
-    },
-    methods: {
-      go (event) {
-        event.preventDefault()
-        this.$root.currentRoute = this.href
-        window.history.pushState(
-          null,
-          routes[this.href],
-          this.href
-        )
+        return this.href === window.location.pathname
       }
     }
   }

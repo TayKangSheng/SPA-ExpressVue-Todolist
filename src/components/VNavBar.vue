@@ -6,8 +6,8 @@
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-left">
+          <li><v-link href="/todos"> Todos </v-link></li>
           <li><v-link href="/info"> Info </v-link></li>
-          <li><v-link href="#"> Link </v-link></li>
           <li><v-link href="#"> Link </v-link></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">

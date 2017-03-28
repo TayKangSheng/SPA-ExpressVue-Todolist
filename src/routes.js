@@ -1,10 +1,7 @@
 export default {
-  '/': {
-    name: 'Home',
-    file: 'static/Home'
-  },
-  '/info': {
-    name: 'Info',
-    file: 'static/Info'
-  }
+  '/': 'static/Home',
+  '/info': 'static/Info',
+  '/todos': 'todos/Index',
+  '/todos/new': 'todos/New',
+  '/todos/:id': 'todos/Show'
 }

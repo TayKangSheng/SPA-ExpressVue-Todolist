@@ -13,7 +13,6 @@
   import VNavBar from '../components/VNavBar.vue'
   import VFooter from '../components/VFooter.vue'
 
-
   export default {
     data: function(){
       return {
