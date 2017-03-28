@@ -1,4 +1,5 @@
 import Vue from 'vue'
+// import App from './App.vue'
 import routes from './routes'
 
 const app = new Vue({
@@ -9,12 +10,11 @@ const app = new Vue({
   computed: {
     ViewComponent () {
       const matchingView = routes[this.currentRoute]
-      return matchingView
-        ? require('./pages/' + matchingView + '.vue')
-        : require('./pages/404.vue')
+      console.log(this.currentRoute)
+      return matchingView ? require('./' + matchingView.file + '.vue') : require('./static/404.vue')
     }
   },
-  render (h) {
+  render: function (h) {
     return h(this.ViewComponent)
   }
 })

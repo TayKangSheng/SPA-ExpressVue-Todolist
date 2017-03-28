@@ -1,4 +1,10 @@
 export default {
-  '/': 'Home',
-  '/about': 'About'
+  '/': {
+    name: 'Home',
+    file: 'static/Home'
+  },
+  '/info': {
+    name: 'Info',
+    file: 'static/Info'
+  }
 }

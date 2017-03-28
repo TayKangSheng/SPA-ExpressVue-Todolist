@@ -1,9 +1,7 @@
-<template>
-  <a
-    v-bind:href="href"
+<template lang="html">
+  <a v-bind:href="href"
     v-bind:class="{ active: isActive }"
-    v-on:click="go"
-  >
+    v-on:click="go">
     <slot></slot>
   </a>
 </template>
@@ -17,7 +15,7 @@
       required: true
     },
     computed: {
-      isActive () {
+      isActive(){
         return this.href === this.$root.currentRoute
       }
     },
@@ -37,6 +35,6 @@
 
 <style scoped>
   .active {
-    color: cornflowerblue;
+    color: cornflowerblue
   }
 </style>
