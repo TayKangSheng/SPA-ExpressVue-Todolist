@@ -1,6 +1,9 @@
-# Single Page Vue-Express Example
+# Single Page Vue-Express Todo List Example
 
-> A simple example of a Single Page Application with Express and Vue 2.0 without using vue-router. This branch uses the raw HTML History API. For an example integrating a 3rd-party routing solution, see the [pagejs branch](https://github.com/chrisvfritz/vue-2.0-simple-routing-example/tree/pagejs).
+My attempt to build a single page application with express and Vue 2.0.
+
+> An example of a Single Page Application with Express and Vue 2.0 without using vue-router. Acknowledgement to the original repository this project is forked from!
+
 
 ## Build Setup
 
